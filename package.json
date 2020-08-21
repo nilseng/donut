@@ -24,6 +24,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "webpack": "^4.44.0",
     "serve": "^11.3.2",
     "three": "^0.118.3"
   }
