@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack-dev-server --open"
+    "start:dev": "webpack-dev-server --open",
+    "start": "serve dist"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +23,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "serve": "^11.3.2",
     "three": "^0.118.3"
   }
 }
